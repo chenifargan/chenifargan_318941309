@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".HomeActivity2">
+    <LinearLayout
+
+        android:id="@+id/linear_layout_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="400dp">
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/categorybtn"
+            android:text="Category"
+            app:cornerRadius="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Promotionsbtn"
+            android:text="Promotions"
+            app:cornerRadius="10dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Logoutbtn"
+            android:text="Log Out"
+            app:cornerRadius="10dp"
+            android:textStyle="bold"
+
+            android:textAllCaps="false"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
